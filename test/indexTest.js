@@ -5,7 +5,7 @@ describe("The payroll system", function () {
     it("has a function called createEmployeeRecord", function () {
       expect(createEmployeeRecord).to.exist
     })
-
+//!
     describe("createEmployeeRecord", function () {
       it("populates a firstName field from the 0th element", function () {
         let testEmployee = createEmployeeRecord(["Gray", "Worm", "Security", 1])
@@ -38,7 +38,7 @@ describe("The payroll system", function () {
       })
     })
   })
-
+//!
   describe("process an Array of Arrays into an Array of employee records", function () {
     it("has a function called createEmployeeRecords", function () {
       expect(createEmployeeRecords).to.exist
@@ -70,7 +70,7 @@ describe("The payroll system", function () {
       })
     })
   })
-
+//!
   describe("it adds a timeIn event Object to an employee's record of timeInEvents when provided an employee record and Date/Time String and returns the updated record", function () {
     it("has a function called createTimeInEvent", function () {
       expect(createTimeInEvent).to.exist
